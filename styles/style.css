@@ -1,7 +1,6 @@
 body {
     background-color: #0F144BFF;
     color: #fff;
-    margin: 10rem 3rem 5rem 3rem;
 }
 
 p {
@@ -33,15 +32,10 @@ a {
 }
 
 .container { /* Contenitore di tutta la pagina */
+    margin: 0 3rem 5rem 3rem;
     text-align: center;
     justify-content: center;
     min-width: 300px;
-}
-
-.big_horizontal_images { /* Immagini grandi orizzontali (come quella d'inizio pagina) */
-    width: 90%;
-    float: right;
-    margin-right: 20px;
 }
 
 .rounded_links_btn { /* Elementi rotondi che contengono collegamenti/link */
@@ -68,20 +62,6 @@ a {
     margin-top: 70px;
 }
 
-.sides_pages_imgs { /* Immagini che rappresentano le pagine "secondarie" */
-    width: 270px;
-    border-radius: 15%;
-    margin-right: 50px;
-    box-shadow: rgba(0, 0, 0, 70%) 30px 10px 300px;
-}
-
-.sides_pages_introductions { /* Introduzione alle pagine "secondarie" */
-    font-size: 1.5rem;
-    font-weight: lighter;
-    line-height: normal;
-    width: 100%;
-}
-
 .subtitle_text_container {
     width: 60%;
     flex-direction: column;
@@ -93,54 +73,8 @@ a {
     font-weight: normal;
 }
 
-#main_content { /* Contenuto principale della pagina */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#go_back_btn { /* bottone per tornare indietro alla Home Page */
-    align-items: center;
-    border-color: transparent;
-    background-color: transparent;
-    margin-left: 2px;
-}
-
-#main_title { /* titolo della pagina principale */
-    margin-top: 20px;
-}
-
-#introduction { /* introduzione della pagina */
-    font-size: 24px;
-}
-
-#sides_pages { /* Pagine "secondarie" */
-    margin-top: 150px;
-    text-align: left;
-}
-
-#main_subtitle { /* sottotitolo della pagina principale */
-    margin-bottom: 100px;
-}
-
-#main_img {
-    margin-top: 10px;
-    margin-right: -210px;
-    border-top-left-radius: 25%;
-}
-
 /* Completare media query */
 @media(width <= 768px) { /* px schermo di un tablet medio */
-    #title {
-        font-size: 100px;
-    }
-
-    /* cambiare anche line-height nei paragrafi */
-
-    #introduction {
-        font-size: 12px;
-    }
 
     @media(width <= 425px) { /* px schermo telefono grande medio */
 

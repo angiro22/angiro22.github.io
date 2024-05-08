@@ -16,17 +16,17 @@
     <!-- stylesheet di Lineicons -->
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
 
-    <!-- foglio di stile -->
-    <link rel="stylesheet" href="style.css">
-
     <!-- AOS stylesheet (libreria per animazioni sullo scorrimento della pagina) -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <!-- script di Fontawesome.com -->
-    <script src="https://kit.fontawesome.com/2593b517ae.js" crossorigin="anonymous"></script>
+    <!-- foglio di stile generale -->
+    <link rel="stylesheet" href="styles/style.css">
+    
+    <!-- foglio di stile della pagina principale -->
+    <link rel="stylesheet" href="styles/main_page_style.css">
 </head>
 <body>
-<div class="container text-center item-center">
+<div class="container">
     <div id="main_content">
 
         <div class="titles">
@@ -57,7 +57,7 @@
             <img src="images/malleo_yoko_tobi_geri.jpg" alt="Story Image" id="storia_img" class="sides_pages_imgs">
 
             <div id="storia_introduction_content" class="subtitle_text_container item-center d-flex">
-                <h3 class="subtitles">L'APPASSIONANTE STORIA</h3>
+                <h3 class="subtitles">L'APPASSIONANTE <br> STORIA</h3>
                 <p id="storia_introduction" class="sides_pages_introductions">
                     Il karate, nato a Okinawa nel XV secolo,
                     si è evoluto da tecniche di difesa senza armi.
@@ -73,25 +73,25 @@
             <img src="images/malleo_yoko_tobi_geri.jpg" alt="Style Image" id="stili_img" class="sides_pages_imgs">
 
             <div id="stili_introduction_content" class="subtitle_text_container item-center justify-between d-flex">
-                <h3 class="subtitles">LA VARIET&Aacute; DEGLI STILI</h3>
+                <h3 class="subtitles">LA VARIET&Aacute; DEGLI <br> STILI</h3>
                 <p id="stili_introduction" class="sides_pages_introductions">
                     Gli stili del karate rappresentano le diverse
                     interpretazioni e sviluppi di questa millenaria
                     arte marziale. Ogni stile ha le sue caratteristiche,
                     filosofie e tecniche distintive.
-                    Preparati ad approfondire principalmente
-                    Shotokan e Kyokushinkai,
-                    ma ad avere ugualmente una preparazione
+                    Preparati ad approfondire principalmente lo
+                    Shotokan, ma ad avere ugualmente una preparazione
                     generale anche su altri.</p>
             </div>
             <a href="sides_pages/stili.html" target="_self"><i class="rounded_links_btn lni lni-arrow-top-right" id="stili_btn" ></i></a>
         </div>
+        <!-- CAPIRE SE TENERLI QUA O AGGIUGERLI NELLA SEZIONE STILI (in stili.html)
 
         <div id="kata" class="links_containers" data-aos="fade-up" data-aos-duration="2000">
             <img src="images/malleo_yoko_tobi_geri.jpg" alt="Kata Image" id="kata_img" class="sides_pages_imgs">
 
             <div id="kata_introduction_content" class="subtitle_text_container item-center justify-between d-flex">
-                <h3 class="subtitles">L'ARTE DEI <br>KATA</h3>
+                <h3 class="subtitles">L'ARTE DEI <br> KATA</h3>
                 <p id="kata_introduction" class="sides_pages_introductions">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     A accusantium, asperiores aspernatur atque consequuntur
@@ -106,7 +106,7 @@
             <img src="images/malleo_yoko_tobi_geri.jpg" alt="Khion Image" id="khion_img" class="sides_pages_imgs">
 
             <div id="khion_introduction_content" class="subtitle_text_container item-center justify-between d-flex">
-                <h3 class="subtitles">L'UTILIT&Aacute; DEI <br>KHION</h3>
+                <h3 class="subtitles">L'UTILIT&Aacute; DEI <br> KHION</h3>
                 <p id="khion_introduction" class="sides_pages_introductions">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Delectus est ipsum libero minus quam quisquam?
@@ -121,7 +121,7 @@
             <img src="images/malleo_yoko_tobi_geri.jpg" alt="Kumite Image" id="kumite_img" class="sides_pages_imgs">
 
             <div id="kumite_introduction_content" class="subtitle_text_container item-center d-flex">
-                <h3 class="subtitles">L'ADRENALINA DEL KUMITE</h3>
+                <h3 class="subtitles">L'ADRENALINA DEL <br> KUMITE</h3>
                 <p id="kumite_introduction" class="sides_pages_introductions">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Aliquid deserunt doloremque dolores, dolorum eos est facere
@@ -130,6 +130,7 @@
             </div>
             <a href="sides_pages/kumite.html" target="_self"><i class="rounded_links_btn lni lni-arrow-top-right" id="kumite_btn" ></i></a>
         </div>
+        -->
 
     </div>
 </div>
@@ -140,6 +141,9 @@
             crossorigin="anonymous">
     </script>
     <!-- fine script di Bootstrap -->
+
+    <!-- script di Fontawesome.com -->
+    <script src="https://kit.fontawesome.com/2593b517ae.js" crossorigin="anonymous"></script>
 
     <!-- script AOS (libreria per animazioni sullo scorrimento della pagina) -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

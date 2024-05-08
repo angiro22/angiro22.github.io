@@ -1,0 +1,68 @@
+body {
+    margin-top: 10rem;
+}
+
+.sides_pages_imgs { /* Immagini che rappresentano le pagine "secondarie" */
+    width: 270px;
+    border-radius: 15%;
+    margin-right: 50px;
+    box-shadow: rgba(0, 0, 0, 70%) 30px 10px 300px;
+}
+
+.sides_pages_introductions { /* Introduzione alle pagine "secondarie" */
+    font-size: 1.5rem;
+    font-weight: lighter;
+    line-height: normal;
+    width: 100%;
+}
+
+#main_content { /* Contenuto principale della pagina */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_title { /* titolo della pagina principale */
+    margin-top: 20px;
+}
+
+#introduction { /* introduzione della pagina */
+    font-size: 24px;
+}
+
+#sides_pages { /* Pagine "secondarie" */
+    margin-top: 150px;
+    text-align: left;
+}
+
+#main_subtitle { /* sottotitolo della pagina principale */
+    margin-bottom: 100px;
+}
+
+#main_img {
+    width: 90%;
+    float: right;
+    margin: 1rem -16rem 1rem 0;
+    border-top-left-radius: 25%;
+}
+
+/* Completare media query */
+@media(width <= 768px) { /* px schermo di un tablet medio */
+    #title {
+        font-size: 100px;
+    }
+
+    /* cambiare anche line-height nei paragrafi */
+
+    #introduction {
+        font-size: 12px;
+    }
+
+    @media(width <= 425px) { /* px schermo telefono grande medio */
+
+        @media(width <= 320px) { /* px schermo telefono piccolo medio */
+
+        }
+    }
+}
