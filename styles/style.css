@@ -1,6 +1,7 @@
 body {
     background-color: #0F144BFF;
     color: #fff;
+    scroll-behavior: auto;
 }
 
 p {

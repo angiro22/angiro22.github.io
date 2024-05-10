@@ -1,0 +1,20 @@
+p {
+    margin: auto;
+}
+
+main {
+    margin-top: 200px;
+}
+
+.story_parts {
+    margin-top: 100px;
+}
+
+section {
+    padding-top: 40px;
+}
+
+#title {
+    font-size: 120px;
+    margin-top: 120px;
+}
