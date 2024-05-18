@@ -4,32 +4,65 @@ header {
     height: 100vh;
     background-size: cover; /* così l'immagine occupa l'intero header */
     background-position: center;
+    background-repeat: no-repeat;
 }
 
-.sides_pages_imgs { /* Immagini che rappresentano le pagine "secondarie" */
+.side_pages_imgs { /* Immagini che rappresentano le pagine "secondarie" */
     width: 270px;
-    border-radius: 15%;
     margin-right: 50px;
     box-shadow: rgba(0, 0, 0, 70%) 30px 10px 300px;
 }
 
-.sides_pages_introductions { /* Introduzione alle pagine "secondarie" */
+.side_pages_introductions { /* Introduzione alle pagine "secondarie" */
     font-size: 1.5rem;
+    min-font-size: 0.2rem;
     font-weight: lighter;
     line-height: normal;
     width: 100%;
 }
 
+.subtitles {
+    min-font-size: 0.7rem;
+}
+
+.links_containers { /* Contenitori che contengono oggetti con collegamenti/link */
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.subtitle_text_container > button {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 70%) 0 0 10rem;
+    color: #fff;
+    align-self: center;
+    margin-top: 1rem;
+    background: #2c3269;
+    transition: 0.4s;
+}
+
+.subtitle_text_container > button:hover {
+    width: 105%;
+    background: #2c3269;
+}
+
+.subtitle_text_container > button:focus {
+    border: none;
+}
+
 #title { /* titolo della pagina principale */
     margin-top: 20px;
     width: 100%;
+    height: auto;
 }
 
 #introduction { /* introduzione della pagina */
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
-#sides_pages { /* Pagine "secondarie" */
+#side_pages { /* Pagine "secondarie" */
     margin-top: 150px;
     text-align: left;
 }
@@ -38,22 +71,132 @@ header {
     margin-bottom: 100px;
 }
 
-/* Completare media query */
-@media(width <= 768px) { /* px schermo di un tablet medio */
-    #title {
-        font-size: 100px;
+@media (width > 900px) {
+    .subtitle_text_container > button {
+        display: none;
+    }
+}
+
+@media (width <= 900px) {
+    header {
+        height: 75vh;
     }
 
-    /* cambiare anche line-height nei paragrafi */
+    h1 {
+        font-size: 6rem;
+    }
 
     #introduction {
-        font-size: 12px;
+        font-size: 1.2rem;
     }
 
-    @media(width <= 425px) { /* px schermo telefono grande medio */
+    #main_subtitle {
+        font-size: 3rem;
+    }
 
-        @media(width <= 320px) { /* px schermo telefono piccolo medio */
+    .links_containers {
+        margin-top: 5rem;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .links_containers > img {
+        display: none;
+    }
+
+    .links_containers > a > i {
+        display: none;
+    }
+
+    .subtitle_text_container {
+        margin: 0;
+    }
+
+    .subtitles,
+    .side_pages_introductions {
+        text-align: center;
+    }
+
+    .subtitles {
+        font-size: 2.5rem;
+        width: 110%;
+        align-self: center;
+        margin-bottom: 1.7rem;
+    }
+
+    .side_pages_introductions {
+        font-size: 1.2rem;
+    }
+
+    @media (width <= 570px) {
+        .subtitles {
+            font-size: 2rem;
+            font-weight: 500;
+        }
+
+        .subtitle_text_container > button:hover {
+            width: 100%;
+        }
+
+        .side_pages_introductions {
+            font-size: 1rem;
+        }
+
+        @media (width <= 500px) {
+            header {
+                background-position-x: left;
+            }
+        }
+
+        @media (width <= 450px) {
+            header {
+                height: 85vh;
+            }
+
+            h1 {
+                font-size: 4rem;
+            }
+
+            #main_subtitle {
+                font-size: 2rem;
+            }
+
+            #introduction {
+                font-size: 1rem;
+                line-height: 2.5rem;
+            }
+
+            .subtitles {
+                font-size: 1.5rem;
+            }
+
+            .side_pages_introductions {
+                font-size: 0.7rem;
+            }
+
+            .subtitle_text_container > button {
+                font-size: 0.7rem;
+            }
+
+            .subtitle_text_container > button:hover {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (width >= 1500px) {
+    #side_pages {
+        margin-left: 5%;
+    }
+
+    @media (width >= 1800px) {
+        i {
+            font-size: 4rem;
+        }
+
+        #side_pages {
+            margin-left: 10%;
         }
     }
 }

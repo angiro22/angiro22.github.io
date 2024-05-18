@@ -31,15 +31,15 @@
 <body>
 
 <header class="d-flex justify-content-center align-items-center text-center align-self-auto">
-    <div id="title">
+    <div id="title" class="d-flex justify-content-center align-items-center">
         <h1 class="z-1" data-aos="fade-up" data-aos-duration="3000">KARATE</h1>
     </div>
 </header>
 
-<div class="container">
+<div class="container-fluid">
         <div class="contents_paragraphs">
             <div class="d-flex justify-content-center">
-                <p id="introduction" data-aos="fade-up" data-aos-duration="2000">
+                <p id="introduction" class="text-center" data-aos="fade-up" data-aos-duration="2000">
                     Il <strong>karate</strong> è un’arte marziale che ha le sue radici nell’isola di
                     <strong>Okinawa</strong>, in Giappone. Originariamente conosciuto come “<strong>To-de</strong>” o “mano cinese”,
                     il karate si è sviluppato attraverso l’influenza delle arti marziali cinesi
@@ -54,35 +54,37 @@
             </div>
         </div>
 
-    <div id="sides_pages">
+    <div id="side_pages">
 
         <h2 id="main_subtitle" class="text-center" data-aos="fade-up" data-aos-duration="2000">
             APPROFONDISCI IL KARATE</h2>
 
         <div id="storia"></div>
         <div class="links_containers" data-aos="fade-up" data-aos-duration="2000">
-            <img src="images/malleo_yoko_tobi_geri.jpg" alt="Story Image" id="storia_img" class="sides_pages_imgs">
+            <img src="images/malleo_yoko_tobi_geri.jpg" alt="Story Image" id="storia_img" class="side_pages_imgs rounded-5">
 
-            <div id="storia_introduction_content" class="subtitle_text_container item-center d-flex">
+            <div id="storia_introduction_content" class="subtitle_text_container item-center justify-between d-flex">
                 <h3 class="subtitles">L'APPASSIONANTE <br> STORIA</h3>
-                <p id="storia_introduction" class="sides_pages_introductions">
+                <p id="storia_introduction" class="side_pages_introductions">
                     Il karate, nato a Okinawa nel XV secolo,
                     si è evoluto da tecniche di difesa senza armi.
                     Con radici nell’arte marziale Okinawa-te e
                     influenze cinesi, è diventato una disciplina
                     globale di autodifesa e crescita personale.
                     Preparati a scoprire l'intera storia del karate</p>
+                <button type="button" class="btn" id="storia_btn" onclick="openStoriaPage()">APPROFONDISCI LA STORIA</button>
             </div>
-            <a href="sides_pages/storia.html" target="_self"><i class="lni lni-arrow-top-right rounded_links_btn" id="storia_btn" ></i></a>
+            <a href="side_pages/storia.html" target="_self"><i class="rounded_links_btn lni lni-arrow-top-right"></i></a>
+
         </div>
 
         <div id="stili"></div>
         <div class="links_containers" data-aos="fade-up" data-aos-duration="2000">
-            <img src="images/malleo_yoko_tobi_geri.jpg" alt="Style Image" id="stili_img" class="sides_pages_imgs">
+            <img src="images/malleo_yoko_tobi_geri.jpg" alt="Style Image" id="stili_img" class="side_pages_imgs rounded-5">
 
             <div id="stili_introduction_content" class="subtitle_text_container item-center justify-between d-flex">
                 <h3 class="subtitles">LA VARIET&Agrave; DEGLI <br> STILI</h3>
-                <p id="stili_introduction" class="sides_pages_introductions">
+                <p id="stili_introduction" class="side_pages_introductions">
                     Gli stili del karate rappresentano le diverse
                     interpretazioni e sviluppi di questa millenaria
                     arte marziale. Ogni stile ha le sue caratteristiche,
@@ -90,11 +92,14 @@
                     Preparati ad approfondire principalmente lo
                     Shotokan, ma ad avere ugualmente una preparazione
                     generale anche su altri.</p>
+                <button type="button" class="btn" id="stili_btn" onclick="openStiliPage()">APPROFONDISCI GLI STILI</button>
             </div>
-            <a href="sides_pages/stili.html" target="_self"><i class="rounded_links_btn lni lni-arrow-top-right" id="stili_btn" ></i></a>
+            <a href="side_pages/stili.html" target="_self"><i class="rounded_links_btn lni lni-arrow-top-right"></i></a>
         </div>
     </div>
 </div>
+    <!-- script della pagina -->
+    <script src="script.js"></script>
 
     <!-- script di Bootstrap 5.3.3 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
