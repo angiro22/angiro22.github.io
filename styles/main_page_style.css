@@ -64,6 +64,7 @@ header {
 
 #side_pages { /* Pagine "secondarie" */
     margin-top: 150px;
+    margin-bottom: 4rem;
     text-align: left;
 }
 
@@ -190,6 +191,10 @@ header {
         margin-left: 5%;
     }
 
+    #main_subtitle {
+        margin-left: -5%;
+    }
+
     @media (width >= 1800px) {
         i {
             font-size: 4rem;
@@ -197,6 +202,10 @@ header {
 
         #side_pages {
             margin-left: 10%;
+        }
+
+        #main_subtitle {
+            margin-left: -10%;
         }
     }
 }
