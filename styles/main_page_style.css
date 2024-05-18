@@ -9,6 +9,7 @@ header {
 
 .side_pages_imgs { /* Immagini che rappresentano le pagine "secondarie" */
     width: 270px;
+    max-height: 400px;
     margin-right: 50px;
     box-shadow: rgba(0, 0, 0, 70%) 30px 10px 300px;
 }
