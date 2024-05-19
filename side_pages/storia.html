@@ -46,6 +46,53 @@
         </ul>
     </nav>
 
+    <!-- Menù laterale per dispositivi mobili -->
+    <nav class="navbar navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"></a>
+            <button class="mobile_menu navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h4 class="offcanvas-title text-white fw-bold" id="offcanvasDarkNavbarLabel">Vai a:</h4>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3 d-flex">
+                        <li class="nav-item">
+                        <span data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <a href="#origini" class="nav-link active" aria-current="page">Origini</a></span>
+                        </li>
+                        <li class="nav-item">
+                        <span data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <a href="#kempo" class="nav-link active" aria-current="page">Kempo</a></span>
+                        </li>
+                        <li class="nav-item">
+                        <span data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <a href="#sviluppo" class="nav-link active" aria-current="page">Sviluppo</a></span>
+                        </li>
+                        <li class="nav-item">
+                        <span data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <a href="#scuole" class="nav-link active" aria-current="page">Scuole</a></span>
+                        </li>
+                        <li class="nav-item">
+                        <span data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <a href="#kata" class="nav-link active">Kata</a></span>
+                        </li>
+                        <li class="nav-item">
+                        <span data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <a href="#modernita" class="nav-link active">Modernit&Agrave;</a></span>
+                        </li>
+                        <li class="go_back_btns nav-item mb-3 mt-auto ms-0">
+                            <a href="../index.html#storia" class="nav-link active"><i class="fa-solid fa-circle-left"></i> <b>Home Page</b></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <main>
         <div class="container-fluid d-flex flex-column align-items-center text-center">
             <div id="origini"></div>
@@ -87,7 +134,7 @@
             <div id="scuole"></div>
             <section  class="story_parts" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="200">
                 <h2>Le prime scuole del Karate</h2>
-                <p>Ad Okinawa, intorno al XIX secolo, si trovano tre principali scuole,
+                <p>A Okinawa, intorno al XIX secolo, si trovano tre principali scuole,
                     Shuri-te, Tomari-te e Naha-te, concentrate nei villaggi da cui derivarono i nomi dei tre stili.
                     Shuri-te fu la scuola di Matsumura, guerriero samurai(bushi),
                     discendente da una nobile famiglia locale che aveva prestato servizio alla corte del re di Okinawa.
