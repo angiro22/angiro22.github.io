@@ -34,7 +34,7 @@
     <header>
         <h1 id="title" class="text-center" data-aos="fade-up" data-aos-duration="2500">LA STORIA DEL <br> KARATE</h1>
     </header>
-    <navbar class="d-flex align-items-center justify-content-center">
+    <nav class="extended_navbar d-flex align-items-center justify-content-center">
         <ul>
             <li class="go_back_btns"><a href="../index.html#storia"><i class="fa-solid fa-circle-left"></i> <b>Home Page</b></a></li>
             <li><a href="#origini">Origini</a></li>
@@ -44,7 +44,49 @@
             <li><a href="#kata">Kata</a></li>
             <li><a href="#modernita">Modernit&agrave;</a></li>
         </ul>
-    </navbar>
+    </nav>
+
+    <!-- Menù laterale per dispositivi mobili -->
+    <nav class="navbar navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"></a>
+            <button class="mobile_menu navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h4 class="offcanvas-title text-white fw-bold" id="offcanvasDarkNavbarLabel">Vai a:</h4>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3 d-flex">
+                        <li class="nav-item">
+                            <a href="#origini" class="nav-link active" aria-current="page">Origini</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#kempo" class="nav-link active">Kempo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#sviluppo" class="nav-link active">Sviluppo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#scuole" class="nav-link active">Scuole</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#kata" class="nav-link active">Kata</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#modernita" class="nav-link active">Modernit&agrave;</a>
+                        </li>
+                        <li class="go_back_btns nav-item mb-3">
+                            <a href="../index.html#storia" class="nav-link active"><i class="fa-solid fa-circle-left"></i> <b>Home Page</b></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <main>
         <div class="container">
             <div id="origini"></div>
@@ -69,7 +111,7 @@
                     Qui, si fuse con le tecniche di combattimento locali, il Te-gumi ed il Kakuto-jutsu,
                     dando vita a un nuovo metodo di combattimento. Questo metodo, influenzato dall’arte del Kempo,
                     venne chiamato To-De (mano cinese), ribattezzato poi in Okinawa-Te (mano di Okinawa) e,
-                    infine, in Karate (kara &#x2192; "mano" vuota), pi&ugrave; precisamente Karate. Nel contesto delle arti marziali,
+                    infine, in Karate (kara &#x2192; "vuoto", te &#x2192; "mano", quindi karate letteralmente significa "mano vuota"), pi&ugrave; precisamente Karate. Nel contesto delle arti marziali,
                     il termine “mano” è inteso come “tecnica di combattimento”.</p>
             </section>
             <div id="sviluppo"></div>
