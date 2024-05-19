@@ -17,41 +17,12 @@ p {
     max-width: 100%;
 }
 
-#title {
-    font-size: 7.5rem;
-}
-
 @media (width <= 900px) {
-    #title {
-        font-size: 6rem;
-    }
 
     @media (width <= 570px) {
-        #title {
-            font-size: 5rem;
-        }
-
-        p {
-            line-height: 2.5rem;
-        }
 
         @media (width <= 500px) {
-            p {
-                line-height: 1.7rem;
-            }
 
-            @media (width <= 450px) {
-                #title {
-                    font-size: 4rem;
-                }
-
-            }
         }
-    }
-}
-
-@media (width >= 1500px) {
-    @media (width >= 1800px) {
-
     }
 }

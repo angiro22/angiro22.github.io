@@ -80,6 +80,10 @@ h4 {
     background: #2c3269;
 }
 
+.title {
+    font-size: 7.5rem;
+}
+
 @media (width > 900px) {
     .mobile_menu {
         display: none;
@@ -101,9 +105,28 @@ h4 {
         display: none;
     }
 
+    .title {
+        font-size: 6rem;
+    }
+
     @media (width <= 570px) {
+        p {
+            line-height: 2.5rem;
+        }
+
+        .title {
+            font-size: 5rem;
+        }
+
         @media (width <= 500px) {
+            p {
+                line-height: 1.7rem;
+            }
+
             @media (width <= 450px) {
+                .title {
+                    font-size: 4rem;
+                }
 
             }
         }
@@ -111,7 +134,7 @@ h4 {
 }
 
 @media (width >= 1500px) {
-    @media (width >= 1800px) {
-
+    .extended_navbar > ul > li {
+        font-size: 1.5rem;
     }
 }

@@ -1,14 +1,28 @@
-.chose_k_container {
+header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(15, 20, 75, 1)), url("../../images/widescreen_style_img.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover; /* così l'immagine occupa l'intero header */
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.card_container {
     margin-top: 100px;
 }
 
-.k_imgs {
+/*.k_imgs {
     width: 40%;
     margin: 0 40px 0 40px;
     filter: grayscale(100%);
     transition: 0.4s;
     border-radius: 20px;
-}
+}*/
 
 .k_titles {
     top: 50%;
@@ -16,9 +30,37 @@
     transform: translate(-50%, -50%);
 }
 
-#kata_img:hover,
+/*#kata_img:hover,
 #kumite_img:hover,
 #khion_img:hover {
     filter: grayscale(0%);
     width: 45%;
+}*/
+
+.card {
+    margin-top: 10rem;
+    width: 40rem;
+}
+
+.card-text {
+    line-height: normal;
+}
+
+@media (width <= 900px) {
+
+    @media (width <= 570px) {
+
+        @media (width <= 500px) {
+
+            @media (width <= 450px) {
+
+            }
+        }
+    }
+}
+
+@media (width >= 1500px) {
+    @media (width >= 1800px) {
+
+    }
 }
