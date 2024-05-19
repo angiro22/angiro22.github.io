@@ -88,6 +88,7 @@ header {
 
 #main_subtitle { /* sottotitolo della pagina principale */
     margin-bottom: 100px;
+    min-width: 100%;
 }
 
 @media (width > 900px) {
@@ -126,8 +127,7 @@ header {
 
     .subtitles {
         font-size: 2.5rem;
-        width: 110%;
-        align-self: center;
+        min-width: 110%;
         margin-bottom: 1.7rem;
     }
 
@@ -141,7 +141,7 @@ header {
 
     @media (width <= 570px) {
         .subtitles {
-            font-size: 2rem;
+            font-size: 2.5rem;
             font-weight: 500;
         }
 
@@ -161,7 +161,7 @@ header {
             }
 
             .subtitles {
-                font-size: 1.5rem;
+                font-size: 2rem;
             }
 
             .subtitle_text_container > button {
