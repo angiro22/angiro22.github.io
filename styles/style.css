@@ -4,8 +4,9 @@ body {
 }
 
 p {
-    width: 800px;
+    max-width: 800px;
     line-height: 3rem; /* distanza tra le linee di testo */
+    font-size: 1.5rem;
 }
 
 h1 {
@@ -18,7 +19,7 @@ h1 {
 
 h2 {
     font-weight: 650;
-    font-size: 60px;
+    font-size: 3.7rem;
 }
 
 img {
@@ -38,43 +39,40 @@ a {
     min-width: 300px;
 }
 
-.rounded_links_btn { /* Elementi rotondi che contengono collegamenti/link */
-    font-size: 2.2rem;
-    border: 2px solid white;
-    border-radius: 50%;
-    padding: 10px;
-    transition: 0.4s;
-}
-
-.rounded_links_btn:hover { /* Quello che succede quando ci passi sopra col mouse */
-    color: #0F144BFF; /* stesso colore di sfondo */
-    border-color: transparent;
-    font-weight: bold;
-    background-color: #fff;
-    transition: 0.3s;
-}
-
-.subtitle_text_container {
-    width: 60%;
-    flex-direction: column;
-    margin-right: 30px;
-}
-
-.subtitles {
-    font-size: 3.5rem;
-    font-weight: normal;
-}
-
-/* Completare media query */
-@media(width <= 900px) { /* px schermo di un tablet medio */
-
+@media (width <= 900px) {
     h1 {
         font-size: 7rem;
     }
 
-    @media(width <= 425px) { /* px schermo telefono grande medio */
+    p {
+        font-size: 1.2rem;
+    }
 
-        /* schermo telefono personale: 396px */
+    @media (width <= 570px) {
+        p {
+            font-size: 1.2rem;
+        }
+
+        @media (width <= 500px) {
+            p {
+                font-size: 1rem;
+            }
+
+            h2 {
+                font-size: 2.5rem;
+            }
+
+            @media (width <= 450px) {
+                p {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+}
+
+@media (width >= 1500px) {
+    @media (width >= 1800px) {
 
     }
 }
