@@ -172,7 +172,7 @@ header {
                 width: 100%;
             }
 
-            #title {
+            #title > h1 {
                 font-size: 4rem;
             }
 
