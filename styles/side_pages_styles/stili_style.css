@@ -16,34 +16,37 @@ header {
     margin-top: 100px;
 }
 
-/*.k_imgs {
-    width: 40%;
-    margin: 0 40px 0 40px;
-    filter: grayscale(100%);
-    transition: 0.4s;
-    border-radius: 20px;
-}*/
-
 .k_titles {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-/*#kata_img:hover,
-#kumite_img:hover,
-#khion_img:hover {
+.card > img {
+    height: 23.5rem;
+    opacity: 30%;
+    filter: grayscale(100%);
+    transition: 0.4s;
+}
+
+.card:hover > img {
     filter: grayscale(0%);
-    width: 45%;
-}*/
+}
 
 .card {
+    transition: 0.5s;
     margin-top: 10rem;
     width: 40rem;
+    color: #fff;
+}
+
+.card:hover {
+    scale: 105%;
 }
 
 .card-text {
-    line-height: normal;
+     line-height: normal;
+     text-shadow: #000 0 0;
 }
 
 @media (width <= 900px) {
@@ -59,7 +62,12 @@ header {
     }
 }
 
-@media (width >= 1500px) {
+@media (width >= 1400px) {
+    #kumite_card {
+        float: none;
+        justify-self: center;
+    }
+
     @media (width >= 1800px) {
 
     }

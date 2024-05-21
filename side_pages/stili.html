@@ -107,8 +107,8 @@
 </nav>
 <main>
     <div class="container-fluid d-flex flex-column align-items-center text-center">
-        <div id="wado_ryu"></div>
-        <section class="style_description">
+        <div id="wado_ryu" class=""></div>
+        <section class="style_description mt-5">
             <h2 class="text-center">Wad&omacr;-ry&umacr;</h2>
             <p class="text-center">
                 Il <strong>Wad&omacr;-ry&umacr;</strong>, o anche Wadoryu, è uno stile giapponese di karate
@@ -188,54 +188,61 @@
         </section>
 
         <div id="le_3_k"></div>
-        <section id="style_description mt-5">
+        <section id="style_description" class="mt-5">
             <h2 class="text-center">Le 3 K</h2>
             <p class="m-auto">Le <strong>3 K</strong> del karate sono i pilastri fondamentali del karate,
             servono a ogni karateka per perfezionare le tecniche e per saperle applicare,
-            queste sono:</p>
+            esplora le 3 K nello Shotokan:</p>
             <div class="row">
                 <div class="col">
-                    <div id="kata_card" class="float-start ms-4">
+                    <div id="kihon_card" class="float-start ms-4">
+                        <div class="card text-bg-dark rounded-4">
+                            <img src="../images/kihon_img.jpg" alt="Kihon Image"
+                                 class="k_imgs card-img-top rounded-4">
+                            <div class="card-img-overlay">
+                                <h2 class="card-title">KIHON</h2>
+                                <p class="card-text">
+                                    I Kihon rappresentano l'insieme delle tecniche fondamentali
+                                    come pugni, calci e parate, che costituiscono la base tecnica e fisica
+                                    del karateka.
+                                </p>
+                                <button type="button" class="btn btn-outline-light mt-5" onclick="openKihonPage()">SCOPRI I KIHON</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div id="kata_card" class="float-end mx-4">
                         <div class="card text-bg-dark rounded-4">
                             <img src="../images/kata_img.jpg" alt="Kata Images"
                                  class="k_imgs card-img-top rounded-4">
                             <div class="card-img-overlay">
                                 <h2 class="card-title">KATA</h2>
                                 <p class="card-text">
-
+                                    I kata sono sequenze preordinate di movimenti che simulano
+                                    combattimenti contro avversari immaginari;
+                                    servono a migliorare la precisione, la coordinazione e
+                                    a comprendere l'applicazione delle tecniche.
                                 </p>
-                                <button type="button" class="btn btn-outline-light">SCOPRI I KATA</button>
+                                <button type="button" class="btn btn-outline-light mt-5" onclick="openKataPage()">SCOPRI I KATA</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div id="kumite_card" class="float-end mx-4">
+                    <div id="kumite_card" class="d-grid float-start mx-4" >
                         <div class="card text-bg-dark rounded-4">
                             <img src="../images/kumite_img.jpg" alt="Kumite Image"
                                  class="k_imgs card-img-top rounded-4">
-                            <div class="card-img-overlay" id="kumite">
+                            <div id="kumite" class="card-img-overlay">
                                 <h2 class="card-title">KUMITE</h2>
                                 <p class="card-text">
-
+                                    Il Kumite è l'applicazione pratica delle tecniche
+                                    in un combattimento reale o simulato contro un
+                                    avversario, sviluppando reattività, strategia e controllo.
                                 </p>
-                                <button type="button" class="btn btn-outline-light">SCOPRI IL KUMITE</button>
+                                <button type="button" class="btn btn-outline-light mt-5" onclick="openKumitePage()">SCOPRI IL KUMITE</button>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div id="khion_card" class="float-start ms-4">
-                    <div class="card text-bg-dark rounded-4">
-                        <img src="../images/khion_img.jpg" alt="Khion Image"
-                             class="k_imgs card-img-top rounded-4">
-                        <div class="card-img-overlay">
-                            <h2 class="card-title">KHION</h2>
-                            <p class="card-text">
-
-                            </p>
-                            <button type="button" class="btn btn-outline-light">SCOPRI I KHION</button>
                         </div>
                     </div>
                 </div>
@@ -243,6 +250,8 @@
         </section>
     </div>
 </main>
+<!-- script documento -->
+<script src="../script.js"></script>
 
 <!-- script di Bootstrap 5.3.3 -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -260,5 +269,8 @@
     AOS.init();
 </script>
 <!-- fine script AOS -->
+
+<script>
+</script>
 </body>
 </html>
