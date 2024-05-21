@@ -1,7 +1,19 @@
 function openStoriaPage() {
-    window.open("side_pages/storia.html", "_self");
+    open("side_pages/storia.html", "_self");
 }
 
 function openStiliPage() {
-    window.open("side_pages/stili.html", "_self");
+    open("side_pages/stili.html", "_self");
+}
+
+function openKihonPage() {
+    open("kihon.html", "_self");
+}
+
+function openKataPage() {
+    open("kata.html", "_self");
+}
+
+function openKumitePage() {
+    open("kumite.html", "_self");
 }
