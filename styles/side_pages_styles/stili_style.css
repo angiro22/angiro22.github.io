@@ -2,9 +2,7 @@ header {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(15, 20, 75, 1)), url("../../images/widescreen_style_img.jpg");
     width: auto;
     max-height: 50vh;
-    background-size: cover; /* così l'immagine occupa l'intero header */
     background-position: top;
-    background-repeat: no-repeat;
 }
 
 .container {
