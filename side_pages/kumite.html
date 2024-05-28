@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>I Kihon nel Karate</title>
+    <title>Il Kumite nel Karate</title>
     <!-- stylesheet di Bootstrap 5.3.3 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
           rel="stylesheet"
@@ -23,24 +23,36 @@
 
     <!-- foglio di stile generale delle pagine secondarie -->
     <link rel="stylesheet" href="../styles/side_pages_styles/side_pages_style.css">
+    
+    <!-- foglio di stile della pagina del kumite -->
+    <link rel="stylesheet" href="../styles/side_pages_styles/kumite_style.css">
 
     <!-- Icona pagina -->
     <link rel="icon" href="../images/icon.png" type="image/icon">
 </head>
 <body>
 <header>
-
+    <h1 class="title text-center pt-5" data-aos="fade-up" data-aos-duration="2500">IL KUMITE NEL<br>KARATE</h1>
 </header>
+
+<section class="d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="200">
+    <p class="text-center">
+        Il <strong>Kumite</strong> è la componente del karate che si focalizza sul combattimento.
+        A differenza dei kihon (tecniche di base) e dei kata (forme),
+        il kumite coinvolge l'interazione diretta con un avversario. Può variare da
+        esercizi preordinati a combattimenti liberi, sviluppando le abilità necessarie
+        per affrontare un opponente in una situazione reale.
+    </p>
+</section>
 
 <nav class="extended_navbar d-flex align-items-center justify-content-center">
     <ul>
-        <li class="go_back_btns"><a href="stili.html#le_3_k"><i class="fa-solid fa-circle-left"></i> <b>Torna indietro</b></a></li>
-        <li><a href=></a></li>
-        <li><a href=></a></li>
-        <li><a href=></a></li>
-        <li><a href=></a></li>
-        <li><a href=></a></li>
-        <li><a href=></a></li>
+        <li class="go_back_btns"><a href="stili.html#kumite"><i class="fa-solid fa-circle-left"></i> <b>Torna indietro</b></a></li>
+        <li><a href="#tipologie">Tipologie</a></li>
+        <li><a href="#fisico_e_mente">Fisico e Mente</a></li>
+        <li><a href="#strategie">Strategie</a></li>
+        <li><a href="#sicurezza">Sicurezza</a></li>
+        <li><a href="#tecniche">Tecniche</a></li>
     </ul>
 </nav>
 
@@ -60,30 +72,26 @@
                 <ul class="navbar-nav justify-content-start flex-grow-1 pe-3 d-flex">
                     <li class="nav-item">
                         <span data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                            <a href="#" class="nav-link active" aria-current="page"></a></span>
+                            <a href="#tipologie" class="nav-link active" aria-current="page">Tipologie</a></span>
                     </li>
                     <li class="nav-item">
                         <span data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                            <a href="#" class="nav-link active" aria-current="page"></a></span>
+                            <a href="#fisico_e_mente" class="nav-link active" aria-current="page">Fisico e Mente</a></span>
                     </li>
                     <li class="nav-item">
                         <span data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                            <a href="#" class="nav-link active" aria-current="page"></a></span>
+                            <a href="#strategie" class="nav-link active" aria-current="page">Strategie</a></span>
                     </li>
                     <li class="nav-item">
                         <span data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                            <a href="#" class="nav-link active" aria-current="page"></a></span>
+                            <a href="#sicurezza" class="nav-link active" aria-current="page">Sicurezza</a></span>
                     </li>
                     <li class="nav-item">
                         <span data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                            <a href="#" class="nav-link active"></a></span>
-                    </li>
-                    <li class="nav-item">
-                        <span data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                            <a href="#" class="nav-link active"></a></span>
+                            <a href="#tecniche" class="nav-link active">Tecniche</a></span>
                     </li>
                     <li class="go_back_btns nav-item mb-3 mt-auto ms-0">
-                        <a href="stili.html#le_3_k" class="nav-link active"><i class="fa-solid fa-circle-left"></i> <b>Torna indietro</b></a>
+                        <a href="stili.html#kumite" class="nav-link active"><i class="fa-solid fa-circle-left"></i> <b>Torna indietro</b></a>
                     </li>
                 </ul>
             </div>
@@ -93,7 +101,230 @@
 
 <main>
     <div class="container-fluid">
+        <div id="tipologie"></div>
+        <section class="d-flex flex-column justify-content-center align-items-center mt-5" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="200">
+            <h2 class="text-center">Le Tipologie</h2>
+            <p class="text-center">
+                Esistono diverse forme di kumite, ciascuna con obiettivi e livelli
+                di complessità differenti. Il kihon kumite è il combattimento
+                preordinato con movimenti prestabiliti, utile per principianti.
+                Il jiyu kumite, o combattimento libero, permette invece maggiore
+                libertà e spontaneità, mettendo alla prova la capacità di applicare
+                tecniche in situazioni dinamiche e imprevedibili.
+            </p>
+        </section>
 
+        <div id="fisico_e_mente"></div>
+        <section class="d-flex flex-column justify-content-center align-items-center mt-5" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="200">
+            <h2 class="text-center">Miglioramento Fisico e Mentale</h2>
+            <p class="text-center">
+                Il combattimento nel kumite è un allenamento intenso
+                che migliora la condizione fisica generale, compresa la resistenza,
+                la forza e la velocità. Inoltre, richiede un alto livello di
+                concentrazione e di controllo emotivo. I praticanti devono mantenere
+                la calma e la lucidità sotto pressione, affinando la loro disciplina
+                mentale e la capacità di prendere decisioni rapide.
+            </p>
+        </section>
+
+        <div id="strategie"></div>
+        <section class="d-flex flex-column justify-content-center align-items-center mt-5" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="200">
+            <h2 class="text-center">Le Strategie e le Tattiche</h2>
+            <p class="text-center">
+                Il kumite non è solo una questione di forza fisica,
+                ma anche di strategia e tattica. I praticanti imparano a
+                leggere l'avversario, anticiparne i movimenti e sfruttare
+                le opportunità. Questo include l'uso di feints (finte), angolazioni,
+                timing (tempismo) e distanziamento per controllare
+                il combattimento e superare l'opponente.
+            </p>
+        </section>
+
+        <div id="sicurezza"></div>
+        <section class="d-flex flex-column justify-content-center align-items-center mt-5" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="200">
+            <h2 class="text-center">La Sicurezza e lo Spirito Sportivo</h2>
+            <p class="text-center">
+                La sicurezza è un aspetto fondamentale del kumite.
+                Durante l'allenamento, i praticanti imparano a
+                controllare le loro tecniche per evitare lesioni. Inoltre,
+                il kumite promuove valori di rispetto e spirito sportivo.
+                Il confronto con un avversario deve essere condotto con integrità
+                e rispetto reciproco, riflettendo i principi etici del karate.
+            </p>
+        </section>
+
+        <div id="tecniche"></div>
+        <section class="d-flex flex-column justify-content-center align-items-center mt-5">
+            <div data-aos="fade-up" data-aos-duration="1500" data-aos-offset="200">
+                <h2 class="text-center">Le tecniche utilizzate</h2>
+                <p class="text-center">
+                    Il kumite da gara, o combattimento sportivo,
+                    è una disciplina del karate in cui i praticanti competono seguendo
+                    regole specifiche per dimostrare abilità tecniche, tattiche e sportive.
+                    Le tecniche utilizzate devono essere eseguite con velocità, precisione
+                    e controllo per ottenere punti senza causare lesioni all'avversario.
+                    In questa forma di kumite, i punti vengono assegnati in base alla qualità
+                    e all'efficacia delle tecniche eseguite. I punti per ogni tecnica vengono
+                    segnati con questo simbolo <img src="../images/point_icon.png" alt="point">,
+                    invece i "non punti" con questo <img src="../images/no_point_icon.png" alt="no-point">.
+                </p>
+            </div>
+            <section class="mt-5">
+                <div data-aos="fade-up" data-aos-duration="1500">
+                    <h3 class="text-center">Kizami-tsuki</h3>
+                    <p class="text-center">
+                        CORPO
+                        <img src="../images/point_icon.png" alt="point">
+                        <img src="../images/no_point_icon.png" alt="no-point">
+                        <img src="../images/no_point_icon.png" alt="no-point"><br>
+
+                        TESTA
+                        <img src="../images/point_icon.png" alt="point">
+                        <img src="../images/no_point_icon.png" alt="no-point">
+                        <img src="../images/no_point_icon.png" alt="no-point">
+                    </p>
+                    <p class="text-center">
+                        Il kizami-tsuki è un pugno diretto eseguito con il braccio anteriore.
+                        Questa tecnica è veloce e viene utilizzata principalmente per colpire
+                        il viso o il torso dell'avversario. Il pugno deve essere scattante e
+                        preciso, sfruttando la velocità e la sorpresa per guadagnare punti.
+                        È spesso usato come tecnica di apertura o per interrompere l'attacco
+                        dell'avversario.
+                    </p>
+                </div>
+                <div class="mt-4" data-aos="fade-up" data-aos-duration="1500">
+                    <h3 class="text-center">Gyaku-tsuki</h3>
+                    <p class="text-center">
+                        CORPO
+                        <img src="../images/point_icon.png" alt="point">
+                        <img src="../images/no_point_icon.png" alt="no-point">
+                        <img src="../images/no_point_icon.png" alt="no-point"><br>
+
+                        TESTA
+                        <img src="../images/point_icon.png" alt="point">
+                        <img src="../images/no_point_icon.png" alt="no-point">
+                        <img src="../images/no_point_icon.png" alt="no-point">
+                    </p>
+                    <p class="text-center">
+                        Il gyaku-tsuki è un pugno diretto eseguito con il braccio posteriore.
+                        Questa tecnica combina potenza e precisione, sfruttando la rotazione
+                        del corpo per generare forza. Il gyaku-tsuki è efficace sia come attacco
+                        diretto sia come risposta a un attacco dell'avversario, mirato al torso o al viso.
+                    </p>
+                </div>
+                <div class="mt-4" data-aos="fade-up" data-aos-duration="1500">
+                    <h3 class="text-center">Mae-geri</h3>
+                    <p class="text-center">
+                        CORPO
+                        <img src="../images/point_icon.png" alt="point">
+                        <img src="../images/point_icon.png" alt="point">
+                        <img src="../images/no_point_icon.png" alt="no-point"><br>
+
+                        TESTA
+                        <img src="../images/no_point_icon.png" alt="point">
+                        <img src="../images/no_point_icon.png" alt="point">
+                        <img src="../images/no_point_icon.png" alt="point">
+                    </p>
+                    <p class="text-center">
+                        Il mae-geri è un calcio diretto in avanti, eseguito con la gamba anteriore o posteriore.
+                        Questa tecnica mira a colpire il torso o l'addome dell'avversario.
+                        Il mae-geri è uno dei calci fondamentali nel kumite, utilizzato per la sua rapidità
+                        e semplicità. La potenza deriva dall'estensione diretta della gamba e dalla spinta
+                        dell'anca. Il mae-geri, però, non è molto usato nelle competizioni perché è molto facile
+                        compiere fallo e non fare punto.
+                    </p>
+                </div>
+                <div class="mt-4" data-aos="fade-up" data-aos-duration="1500">
+                    <h3 class="text-center">Yoko-geri</h3>
+                    <p class="text-center">
+                        CORPO
+                        <img src="../images/point_icon.png" alt="point">
+                        <img src="../images/point_icon.png" alt="point">
+                        <img src="../images/no_point_icon.png" alt="no-point"><br>
+
+                        TESTA
+                        <img src="../images/no_point_icon.png" alt="point">
+                        <img src="../images/no_point_icon.png" alt="point">
+                        <img src="../images/no_point_icon.png" alt="point">
+                    </p>
+                    <p class="text-center">
+                        Il yoko-geri è un calcio laterale che può essere eseguito con la gamba anteriore
+                        o posteriore. Questa tecnica mira a colpire il fianco o il torso dell'avversario.
+                        Il yoko-geri è potente e diretto, sfruttando la spinta dell'anca e la forza
+                        della gamba per generare un impatto significativo.
+                    </p>
+                </div>
+                <div class="mt-4" data-aos="fade-up" data-aos-duration="1500">
+                    <h3 class="text-center">Mawashi-geri</h3>
+                    <p class="text-center">
+                        CORPO
+                        <img src="../images/point_icon.png" alt="point">
+                        <img src="../images/point_icon.png" alt="point">
+                        <img src="../images/no_point_icon.png" alt="no-point"><br>
+
+                        TESTA
+                        <img src="../images/point_icon.png" alt="point">
+                        <img src="../images/point_icon.png" alt="point">
+                        <img src="../images/point_icon.png" alt="point">
+                    </p>
+                    <p class="text-center">
+                        Il mawashi-geri è un calcio circolare che può essere eseguito con
+                        la gamba anteriore o posteriore. Questo calcio mira a colpire il fianco,
+                        il torso o la testa dell'avversario. La tecnica richiede flessibilità
+                        e precisione, poiché il calcio deve essere eseguito con la giusta angolazione
+                        e velocità per essere efficace e guadagnare punti.
+                    </p>
+                </div>
+                <div class="mt-4" data-aos="fade-up" data-aos-duration="1500">
+                    <h3 class="text-center">Ura-mawashi-geri</h3>
+                    <p class="text-center">
+                        CORPO
+                        <img src="../images/no_point_icon.png" alt="no-point">
+                        <img src="../images/no_point_icon.png" alt="no-point">
+                        <img src="../images/no_point_icon.png" alt="no-point"><br>
+
+                        TESTA
+                        <img src="../images/point_icon.png" alt="point">
+                        <img src="../images/point_icon.png" alt="point">
+                        <img src="../images/point_icon.png" alt="point">
+                    </p>
+                    <p class="text-center">
+                        L'ura-mawashi-geri è una variante del mawashi-geri,
+                        eseguito con un movimento circolare inverso.
+                        Questo calcio dev'essere diretto alla testa dell'avversario e
+                        può essere difficile da prevedere.
+                        L'ura-mawashi-geri richiede un'elevata coordinazione e controllo,
+                        poiché il piede deve colpire con precisione mentre il corpo ruota in senso
+                        contrario rispetto al mawashi-geri tradizionale.
+                    </p>
+                </div>
+                <div class="mt-4" data-aos="fade-up" data-aos-duration="1500">
+                    <h3 class="text-center">Ashi-barai</h3>
+                    <p class="text-center">
+                        CORPO
+                        <img src="../images/point_icon.png" alt="point">
+                        <img src="../images/point_icon.png" alt="point">
+                        <img src="../images/point_icon.png" alt="point"><br>
+
+                        TESTA
+                        <img src="../images/point_icon.png" alt="point">
+                        <img src="../images/point_icon.png" alt="point">
+                        <img src="../images/point_icon.png" alt="point">
+                    </p>
+                    <p class="text-center">
+                        L'ashi-barai è una tecnica di spazzata utilizzata per
+                        destabilizzare e far cadere l'avversario.
+                        Questa tecnica si esegue colpendo la caviglia o il piede
+                        dell'avversario con un movimento rapido e basso della gamba.
+                        L'ashi-barai è spesso combinata con altre tecniche di pugno o calcio
+                        per creare aperture e ottenere un vantaggio strategico durante il combattimento.
+                        Il vero punteggio di questa tecnica viene attribuito solo quando l'avversario
+                        cade a terra e viene colpito con uno tsuki (pugno) entro 5 secondi.
+                    </p>
+                </div>
+            </section>
+
+        </section>
     </div>
 </main>
 <!-- script documento -->

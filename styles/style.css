@@ -28,6 +28,11 @@ h2 {
     font-size: 3.7rem;
 }
 
+h3 {
+    font-size: 3.6rem;
+    font-weight: 625;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -62,6 +67,10 @@ a {
 
             h2 {
                 font-size: 2.5rem;
+            }
+
+            h3 {
+                font-size: 2.4rem;
             }
         }
     }
