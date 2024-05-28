@@ -2,9 +2,6 @@ header {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(15, 20, 75, 1)), url("../images/main_img_karate.jpg");
     width: 100%;
     height: 100vh;
-    background-size: cover; /* così l'immagine occupa l'intero header */
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .side_pages_imgs { /* Immagini che rappresentano le pagine "secondarie" */

@@ -3,6 +3,12 @@ body {
     color: #fff;
 }
 
+header {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 p {
     max-width: 800px;
     line-height: 3rem; /* distanza tra le linee di testo */
